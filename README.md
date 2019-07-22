@@ -8,6 +8,23 @@
 
 *A sample HTML output file is uploaded to this repo where the hashtag input was 'bjp' and the limiting value was 1000.*
 
+#### Instructions to run the code
+Step 1
+_git clone https://github.com/Debanik/Tweet-based-Trends-plotting-using-Hashtags.git_
+Step 2
+_python3 -m virtualenv myenv_
+Step 3
+_source myenv/bin/activate_
+Step 4
+_pip install -r requirements.txt_
+Step 5
+_Edit twitter.py and insert your own Twitter API credentials_
+Step 6
+_python twitter.py_
+
+#####Viola! If everything worked correctly, you'll find a _twittermap.html_ file with the geocoded data.
+
+
 ## Built With
 - [TextBlob](https://textblob.readthedocs.io/en/dev/) - For sentimentally analysing the tweets. 
 - [Folium](https://github.com/python-visualization/folium) - For creating a Leaflet map from location parameters. 
